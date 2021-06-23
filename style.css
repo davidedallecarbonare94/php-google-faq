@@ -1,0 +1,79 @@
+/* Common Rules */
+*:not(ul, ol){
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Product Sans',Arial,sans-serif;
+}
+.text_blue{
+    color: blue;
+}
+/* header */
+header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+.top_nav{
+    display: flex;
+    flex-direction: row;
+    padding: 1.25rem;
+}
+.top_nav img{
+    width: 75px;
+    margin-right: 10px;
+}
+.top_nav a {
+    font-size: 1.45rem;
+    color: rgb(100, 100, 100);
+}
+nav{
+    margin-bottom: 1rem;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    padding: 1.25rem;
+    
+}
+
+/* main section */
+main{
+    width: 38%;
+    margin: 0 auto;
+    padding-top: 12rem;
+
+}
+
+main h2{
+    color: rgba(0, 0, 0, 0.733);
+    padding-bottom: 2rem;
+}
+main p{
+    padding-bottom: 1.5rem;
+    line-height: 1.5rem;
+}
+
+/* footer */
+footer{
+    background-color: lightgray;
+    width: 100%;
+}
+.wrapper{
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 38%;
+    margin: 0 auto;
+    align-items: center;
+}
+.links a{
+    color: grey;
+    text-decoration: none;
+}
+select{
+    width: 250px;
+}
